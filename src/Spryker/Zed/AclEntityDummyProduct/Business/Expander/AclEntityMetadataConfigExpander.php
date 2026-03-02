@@ -21,11 +21,6 @@ use Spryker\Shared\AclEntity\AclEntityConstants;
 
 class AclEntityMetadataConfigExpander implements AclEntityMetadataConfigExpanderInterface
 {
-    /**
-     * @param \Generated\Shared\Transfer\AclEntityMetadataConfigTransfer $aclEntityMetadataConfigTransfer
-     *
-     * @return \Generated\Shared\Transfer\AclEntityMetadataConfigTransfer
-     */
     public function expandAclEntityMetadataConfigWithProductStoreRelation(
         AclEntityMetadataConfigTransfer $aclEntityMetadataConfigTransfer
     ): AclEntityMetadataConfigTransfer {
@@ -49,11 +44,6 @@ class AclEntityMetadataConfigExpander implements AclEntityMetadataConfigExpander
         return $aclEntityMetadataConfigTransfer;
     }
 
-    /**
-     * @param \Generated\Shared\Transfer\AclEntityMetadataConfigTransfer $aclEntityMetadataConfigTransfer
-     *
-     * @return \Generated\Shared\Transfer\AclEntityMetadataConfigTransfer
-     */
     public function expandAclEntityMetadataConfigWithProductComposite(
         AclEntityMetadataConfigTransfer $aclEntityMetadataConfigTransfer
     ): AclEntityMetadataConfigTransfer {

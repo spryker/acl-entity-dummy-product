@@ -36,9 +36,6 @@ class AclEntityDummyProductFacadeTest extends Unit
      */
     protected $tester;
 
-    /**
-     * @return void
-     */
     public function testExpandAclEntityMetadataCollectionWithProductStoreRelation(): void
     {
         // Arrange
@@ -67,9 +64,6 @@ class AclEntityDummyProductFacadeTest extends Unit
         $this->assertEmpty($aclEntityMetadataCollection->getCollection()[SpyStore::class]->getParent());
     }
 
-    /**
-     * @return void
-     */
     public function testExpandAclEntityMetadataCollectionWithProductCompositeRelation(): void
     {
         // Arrange

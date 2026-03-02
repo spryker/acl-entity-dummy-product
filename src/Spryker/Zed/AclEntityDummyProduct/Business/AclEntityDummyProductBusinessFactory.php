@@ -16,9 +16,6 @@ use Spryker\Zed\Kernel\Business\AbstractBusinessFactory;
  */
 class AclEntityDummyProductBusinessFactory extends AbstractBusinessFactory
 {
-    /**
-     * @return \Spryker\Zed\AclEntityDummyProduct\Business\Expander\AclEntityMetadataConfigExpanderInterface
-     */
     public function createAclEntityMetadataConfigExpander(): AclEntityMetadataConfigExpanderInterface
     {
         return new AclEntityMetadataConfigExpander();

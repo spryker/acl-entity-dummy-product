@@ -11,20 +11,10 @@ use Generated\Shared\Transfer\AclEntityMetadataConfigTransfer;
 
 interface AclEntityMetadataConfigExpanderInterface
 {
-    /**
-     * @param \Generated\Shared\Transfer\AclEntityMetadataConfigTransfer $aclEntityMetadataConfigTransfer
-     *
-     * @return \Generated\Shared\Transfer\AclEntityMetadataConfigTransfer
-     */
     public function expandAclEntityMetadataConfigWithProductStoreRelation(
         AclEntityMetadataConfigTransfer $aclEntityMetadataConfigTransfer
     ): AclEntityMetadataConfigTransfer;
 
-    /**
-     * @param \Generated\Shared\Transfer\AclEntityMetadataConfigTransfer $aclEntityMetadataConfigTransfer
-     *
-     * @return \Generated\Shared\Transfer\AclEntityMetadataConfigTransfer
-     */
     public function expandAclEntityMetadataConfigWithProductComposite(
         AclEntityMetadataConfigTransfer $aclEntityMetadataConfigTransfer
     ): AclEntityMetadataConfigTransfer;
